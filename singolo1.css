@@ -5,10 +5,10 @@
  }
  
 html {
-        font-size: 100%;
+     
      font: inherit;
      vertical-align: center;
-     width: 100%;
+     max-width: 1020px;
  }
  body {
      font-size: 14px;
@@ -17,8 +17,7 @@ html {
      font-weight: 400;
      color: #767e9e;
      background: #f2f2f2;
-     height: 100%;
- }
+      }
  
  a {
      color: #000;
@@ -48,19 +47,17 @@ html {
  
  .header-logo {
      position: relative;
-     padding: 20px 0 14px;
-     margin-left: 8%;
-     margin-right: 9%;
- }
+     padding: 10px 0 8px;
+     margin-left: 60px;
+     margin-bottom: 15px;
+       }
  
  .logo {
      position: absolute;
      top: 0;
      left: 40;
      display: block;
-     width: 10%;
-     height: 5%;
-     line-height: 95px;
+       line-height: 95px;
      color: #fff;
      font-size: 25px;
      font-weight: 700;
@@ -88,13 +85,10 @@ html {
  
  .nav li:after {
      color: #494e62;
-     margin-left: 7px;
+     margin-left: 17px;
  }
  
- .nav .last:after {
-     display: none;
- }
- 
+
  .nav a {
      display: inline-block;
      padding: 10px 0;
@@ -114,8 +108,8 @@ html {
 }
  
  .pod {
-     padding: 36px 40px;
-     margin-left: 7%;
+     padding: 35px 30px;
+     margin-left: 2%;
          
                 }
  .pod .baseline {
@@ -127,13 +121,13 @@ html {
            }
      
  .list-services {
-     margin: 40px 40px;
+     margin: 20px 20px;
              }
  
  .list-services div {
      float: left;
      padding-left: 80px;
-     width: 300px;
+     width: 230px;
      margin: 10px;
      position: relative;
      background: #f2f2f2;
@@ -153,28 +147,29 @@ html {
  }
  
  .list-services .service-design:after {
-     background-position: 0 0;
- }
- 
- .list-services .service-ideas:after {
-     background-position: 60px 0;
- }
- 
- .list-services .service-love:after {
-     background-position: 120px 0;
- }
- 
- .list-services .service-responsive:after {
-     background-position: 0 60px;
- }
- 
- .list-services .service-support:after {
-     background-position: 60px 60px;
- }
- 
- .list-services .service-star:after {
-     background-position: 120px 60px;
- }
+    background-position: 0 0;
+}
+
+.list-services .service-ideas:after {
+    background-position: -60px 0;
+}
+
+.list-services .service-love:after {
+    background-position: -120px 0;
+}
+
+.list-services .service-responsive:after {
+    background-position: 0 -60px;
+}
+
+.list-services .service-support:after {
+    background-position: -60px -60px;
+}
+
+.list-services .service-star:after {
+    background-position: -120px -60px;
+}
+
  
  .slider {
     background: #eb5055;
