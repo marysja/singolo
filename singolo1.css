@@ -70,6 +70,10 @@ html {
      text-decoration: none;
      text-transform: uppercase;
         }
+.logo:hover,
+.logo:focus {
+    color: #ee5052;
+}
  
  .logo:after {
      content: "*";
@@ -107,6 +111,10 @@ html {
  .nav .active {
      color: #ee5052;
  }
+.nav a:hover,
+.nav a:focus {
+    border-bottom-color: #ee5052;
+}
  
  .pod {
      padding: 36px 40px;
