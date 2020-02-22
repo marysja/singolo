@@ -5,10 +5,7 @@
  }
  
 html {
-    margin: 0;
-     padding: 0;
-     border: 0;
-     font-size: 100%;
+        font-size: 100%;
      font: inherit;
      vertical-align: center;
      width: 100%;
@@ -122,7 +119,7 @@ html {
          
                 }
  .pod .baseline {
-         width: 86%;
+         width: 88%;
           }
      
      .baseline {
@@ -178,21 +175,24 @@ html {
  .list-services .service-star:after {
      background-position: 120px 60px;
  }
- .slider {
-     background: #eb5055;
-     border-bottom: 6px solid #ea676b;
- }
  
- .flexslider {
-     width: 960px;
-     padding: 0;
-     margin-left: auto;
-     margin-right: auto;
- }
- .slides:after {
+ .slider {
+    background: #eb5055;
+    border-bottom: 6px solid #ea676b;
+}
+.flexslider {
+    width: 960px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slides:after {
      display: block;
-      clear: both;
-     height: 0;
-     line-height: 0;
- }
+       clear: both;
+    height: 0;
+    line-height: 0;
+}
+
+
+
  
